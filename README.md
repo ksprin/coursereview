@@ -1,18 +1,6 @@
-# Homework 7
+# Course Review Application (Database and User Interaction Class Project)
 
-# Authors
+A final project for CS 3140: Software Development Essentials, which was taught by Rich Nguyen. With a team of three a program using Java and SQLite, with a MVC design pattern, was constructed. The program reads information from a JSON file and allows for user interaction with a constructed UI. Additionally the project utilizes unit tests.
 
-- Kayla Sprincis - xcx8fh
-- Eric Weng - qgt7zm
-- Aryan Medam - ucy7un
-
-# How to run the Project
-
-The main class is called "Main.java"
-
-To create a new jar file run ./gradlew build on the command line
-
-To run the program use the command ./gradlew build run on the command line
-
-# Submission Time
-5/3/2023 3:15pm
+Team:
+Kayla Sprincis, Eric Weng, Aryam Medam
