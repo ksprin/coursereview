@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+//    mainModule = "CourseReview.main"
+    mainClass = "edu.virginia.cs.hw7.Main"
+}
+
+run {
+    // Make sure gradle plays nicely with Scanner
+    standardInput = System.in
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+dependencies {
+    // JSON
+    implementation group: 'org.json', name: 'json', version: '20230227'
+
+    // SQL
+    implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.41.2.1'
+    implementation group: 'com.github.gwenn', name: 'sqlite-dialect', version: '0.1.4'
+    implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+
+    // Testing
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '4.8.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+}
+
+test {
+    useJUnitPlatform()
+}

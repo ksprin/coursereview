@@ -1,0 +1,144 @@
+{
+  "students": [
+    {
+      "id": 1776,
+      "username": "tomwashington",
+      "password": "jeffersonsux!"
+    },
+    {
+      "id": 1787,
+      "username": "georgejefferson",
+      "password": "Washingtonsux1"
+    },
+    {
+      "id": 1865,
+      "username": "gabelincoln",
+      "password": "4score7years"
+    },
+    {
+      "id": 1879,
+      "username": "roberteinstein",
+      "password": "eEqualsMc2"
+    },
+    {
+      "id": 1976,
+      "username": "stevedobbs",
+      "password": "4ppl3_g4ng"
+    },
+    {
+      "id": 1975,
+      "username": "billyates",
+      "password": "W1nd0wz4L1f3"
+    },
+    {
+      "id": 1971,
+      "username": "allenmusk",
+      "password": "xAshA12"
+    },
+    {
+      "id": 1964,
+      "username": "stephbezos",
+      "password": "a2zBillionare"
+    },
+    {
+      "id": 2016,
+      "username": "ronaldrump",
+      "password": "bestestprezever"
+    }
+  ],
+  "courses": [
+    {
+      "id": 0,
+      "department": "CS",
+      "catalog_number": 3140
+    },
+    {
+      "id": 1,
+      "department": "GOKU",
+      "catalog_number": 9001
+    },
+    {
+      "id": 2,
+      "department": "ASTR",
+      "catalog_number": 1210
+    },
+    {
+      "id": 3,
+      "department": "ENWR",
+      "catalog_number": 1984
+    },
+    {
+      "id": 4,
+      "department": "EVIL",
+      "catalog_number": 1010
+    },
+    {
+      "id": 5,
+      "department": "EVIL",
+      "catalog_number": 1020
+    },
+    {
+      "id": 6,
+      "department": "MCFT",
+      "catalog_number": 2009
+    }
+  ],
+  "reviews": [
+    {
+      "id": 0,
+      "student_id": 1776,
+      "course_id": 0,
+      "message": "OMG! Best course ever!!!! Professor always answers questions :)",
+      "rating": 5
+    },
+    {
+      "id": 1,
+      "student_id": 1787,
+      "course_id": 0,
+      "message": "OMGGG! Worst course everrr!!!! Professor is sooo mean!!",
+      "rating": 1
+    },
+    {
+      "id": 2,
+      "student_id": 1879,
+      "course_id": 2,
+      "message": "So confused rn??? I thought this was gonna be astrology",
+      "rating": 2
+    },
+    {
+      "id": 3,
+      "student_id": 1971,
+      "course_id": 1,
+      "message": "It's over 9000!! #ToTheMoon",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "student_id": 2016,
+      "course_id": 3,
+      "message": "Litarly 1984..   teh university is trying to spread FAKE NEWS and MISINFORMATON - I cuold totally run this better",
+      "rating": 3
+    },
+    {
+      "id": 5,
+      "student_id": 1975,
+      "course_id": 4,
+      "message": "Very useful material, definitely applicable in my life. I'm looking forward to EVIL 1210",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "student_id": 1976,
+      "course_id": 4,
+      "message": "you know this course would have benefited from better presentation, like maybe make the classroom white and the textbooks digital",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "student_id": 2016,
+      "course_id": 6,
+      "message": "Still dont know who this Minecraft guy is, but I'm sure he's a good fellow, maybe on eof the BEST fellows ot ever live, though Shirley not as good as ME",
+      "rating": 5
+    }
+  ]
+}
